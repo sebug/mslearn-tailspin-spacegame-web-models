@@ -36,6 +36,7 @@ steps:
     patchVersion: '0'
  
 # This needs permissions, let us see if we have them
+# The account is Space Game - web - Dependencies Build Service (sebugspin)
 
 - task: NuGetCommand@2
   displayName: 'Publish NuGet package'
