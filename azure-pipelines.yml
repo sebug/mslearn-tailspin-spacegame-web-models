@@ -35,6 +35,8 @@ steps:
     minorVersion: '0'
     patchVersion: '0'
  
+# This needs permissions, let us see if we have them
+
 - task: NuGetCommand@2
   displayName: 'Publish NuGet package'
   inputs:
